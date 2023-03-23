@@ -17,6 +17,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd /var/www/${{ github.event.repository.name }} 
+          sudo chown -R $USER:$USER .
           git reset --hard
           git fetch
           git merge origin/master
