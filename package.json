@@ -2,6 +2,7 @@
     "private": true,
     "scripts": {
         "dev": "vite",
+        "prod": "yarn build",
         "build": "vite build && vite build --ssr"
     },
     "devDependencies": {
