@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +25,7 @@ Route::middleware('splade')->group(function () {
     // Registers routes to support async File Uploads with Filepond...
     Route::spladeUploads();
 
-    Route::view('/', 'welcome');
+    Route::view('/', [MainController::class, 'welcome'])->name('welcome');
     Route::view('/root', 'root');
 
     require __DIR__ . '/auth.php';
