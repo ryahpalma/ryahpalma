@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Ryan, and I'm a very long-time, Laravel and PHP enthusiast! I create packages and run a blog, and you can find me on [Twitter](https://twitter.com/ryahpalma) 🙌
+My name is Ryan, and I'm a very long-time, Laravel and PHP enthusiast! I create packages and run a blog, and you can find me on [LinkedIn](https://www.linkedin.com/in/ryahpalma) 🙌
 
 I am studying Computer Science and am certified as an Associate Cloud Engineer by Google Cloud.
 
